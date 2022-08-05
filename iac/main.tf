@@ -42,6 +42,6 @@ output "kube_endpoint" {
 }
 
 resource "local_file" "kube_config" {
-    content  = digitalocean_kubernetes_cluster.orbite.kube_config.0.raw_config
-    filename = "kube_config.yaml"
+  content  = digitalocean_kubernetes_cluster.orbite.kube_config.0.raw_config
+  filename = "kube_config.yaml"
 }

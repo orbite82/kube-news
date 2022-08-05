@@ -1,3 +1,3 @@
-do_token   ="dop_v1_27eb35b239092b313391507d1e015018a74f1a6114797eda18d0ba2af2b194aa"
-k8s_name   ="k8s-vai" 
-region     ="nyc1" 
+do_token = "dop_v1_ab418333c9ac94bd790fb69b7277c9978e58fb5bdb5364f3ef9b6dc4f96b72eb"
+k8s_name = "k8s-vai"
+region   = "nyc1" 
