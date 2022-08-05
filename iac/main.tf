@@ -19,7 +19,7 @@ resource "digitalocean_kubernetes_cluster" "orbite" {
 
   node_pool {
     name       = "default"
-    size       = "s-4vcpu-8gb"
+    size       = "s-2vcpu-4gb"
     node_count = 2
 
   }
