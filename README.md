@@ -548,4 +548,9 @@ postgre      ClusterIP      10.245.223.122   <none>           5432/TCP       4m5
  1988  docker build --no cache -t orbite82/kube-news:v1 -f Dockerfile .
  1989  docker build --no-cache -t orbite82/kube-news:v1 -f Dockerfile .
  1990  docker push orbite82/kube-news:v1
+
+/Iniciativa-Devops/kube-news
+└──> $ cd iac/
+~/Iniciativa-Devops/kube-news/iac
+└──> $ cp kube_config.yaml ~/.kube/config 
  ´´´
